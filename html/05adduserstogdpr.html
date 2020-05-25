@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>How do I add users to GDPR Central? &#8212; GDPR Central User  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="How can I change different parameters of GDPR Central?" href="06changingparametersgdpr.html" />
+    <link rel="prev" title="How do I integrate publishing my Process Activity with corporate sites?" href="04integration.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="06changingparametersgdpr.html" title="How can I change different parameters of GDPR Central?"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="04integration.html" title="How do I integrate publishing my Process Activity with corporate sites?"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">GDPR Central User  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="how-do-i-add-users-to-gdpr-central">
+<span id="adduserstogdprcentral"></span><h1>How do I add users to GDPR Central?<a class="headerlink" href="#how-do-i-add-users-to-gdpr-central" title="Permalink to this headline">¶</a></h1>
+<p>User Management within GDPR Central is handled through Users under Administration section. You can control what actions a user can perform within GDPR Central. Different users can have different roles within GDPR Central. In addition, they can also have different roles within different companies within GDPR Central.</p>
+<p>You have the following user roles within GDPR-Central:</p>
+<ul class="simple">
+<li><p><strong>superadmin</strong> - Super Administrators have the highest role within GDPR-Central. They can grant different roles to users to different companies within GDPR Central. They can either grant permissions to one company or multiple companies.</p></li>
+<li><p><strong>admin</strong> – Administrators have the highest role within a company in GDPR-Central. They can add users and assign roles to them but cannot do administration to other companies for which they do not have access to.</p></li>
+<li><p><strong>user</strong> – This is the default role for any user in the system. They can perform all actions under the company. They will not be able to approve anything but can request for approval.</p></li>
+<li><p><strong>read-only</strong> – This role allows the user to only view information within the system. They cannot create, edit, or delete information.</p></li>
+<li><p><strong>auditor</strong> – This role is granted to Data Protection Authority (DPA), in case of an investigation. In case of an investigation, if you want to directly give the DPA access to the system, you can grant this role. A user with auditor role can login to GDPR Central and only see approved processing activities. They will not be able to edit anything or see the work in progress.</p></li>
+</ul>
+<p>You can add or edit users and their roles to GDPR Central only if you have superadmin role.</p>
+<iframe width="640" height="360" style="margin-bottom: 25px" src="https://www.youtube.com/embed/morfJBMJB8I" frameborder="0" allowfullscreen="1">&nbsp;</iframe><p>To add a user within GDPR Central, perform the following steps:</p>
+<ol class="arabic">
+<li><p>Login to GDPR Central using your credentials if not already logged in.</p></li>
+<li><p>In the left pane, under Administration, click Users. The list of users already in the system is listed here.</p></li>
+<li><p>Click New button. The New User registration screen appears.</p>
+<table class="colwidths-given docutils align-default" id="id1">
+<caption><span class="caption-text">New User Registration Details</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 60%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Email</p></td>
+<td><p>Enter the e-mail address of the new user.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Company</p></td>
+<td><p>Select the company for which you would like to assign this user role to.
+For superadmin role, please leave this field blank.</p></td>
+</tr>
+<tr class="row-even"><td><p>Role</p></td>
+<td><p>Select the role you would like to assign to this user.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Locale</p></td>
+<td><p>Select the language locale version to which the user needs access to.
+en – English
+nl – Dutch
+fr – French
+These are the languages available now and there are plans to add more languages.</p></td>
+</tr>
+<tr class="row-even"><td><p>deactivated</p></td>
+<td><p>If you want the user to be active in the system, please leave this unchecked.</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Click Save button. You get a success message, and the users page with the list of users is displayed.</p></li>
+<li><p>If Auto send invitation mail under Administration &gt; Configuration has been marked as No, you will need to click Resend invitation button for the invite to be sent to the user.</p>
+<img alt="_images/img10.png" src="_images/img10.png" />
+</li>
+</ol>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="04integration.html"
+                        title="previous chapter">How do I integrate publishing my Process Activity with corporate sites?</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="06changingparametersgdpr.html"
+                        title="next chapter">How can I change different parameters of GDPR Central?</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/05adduserstogdpr.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="06changingparametersgdpr.html" title="How can I change different parameters of GDPR Central?"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="04integration.html" title="How do I integrate publishing my Process Activity with corporate sites?"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">GDPR Central User  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Security Service Layer, Belgium.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.
+    </div>
+  </body>
+</html>

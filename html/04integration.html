@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>How do I integrate publishing my Process Activity with corporate sites? &#8212; GDPR Central User  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="How do I add users to GDPR Central?" href="05adduserstogdpr.html" />
+    <link rel="prev" title="How do I publish a Processing Activity?" href="03publishprocessingactivity.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="05adduserstogdpr.html" title="How do I add users to GDPR Central?"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="03publishprocessingactivity.html" title="How do I publish a Processing Activity?"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">GDPR Central User  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="how-do-i-integrate-publishing-my-process-activity-with-corporate-sites">
+<span id="publishintegration"></span><h1>How do I integrate publishing my Process Activity with corporate sites?<a class="headerlink" href="#how-do-i-integrate-publishing-my-process-activity-with-corporate-sites" title="Permalink to this headline">¶</a></h1>
+<p>You can display published Processing Activities within your corporate sites. To do this, you will need to create an integration between GDPR-Central and your corporate site.</p>
+<div class="section" id="integrating-gdpr-central-to-corporate-site">
+<h2>Integrating GDPR Central to Corporate Site<a class="headerlink" href="#integrating-gdpr-central-to-corporate-site" title="Permalink to this headline">¶</a></h2>
+<p>To integrate GDPR-Central and your corporate site, perform the following step:</p>
+<blockquote>
+<div><p>If you want to include the published page in your website, add the following snippet of code in your website page:</p>
+<div class="highlight-default notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25</pre></div></td><td class="code"><div class="highlight"><pre><span></span>&lt;script&gt;
+window.addEventListener(&quot;message&quot;, function(evt) {
+ if (!document.documentURI.startsWith(evt.origin)) {
+     var container = document.getElementsByClassName(&quot;iframe-container&quot;)[0]
+ var scrollHeight = evt.data // The data will contain the scrollHeight of
+ the inner frame, communicated once the iframe is loaded
+ var iframe = document.getElementById(&quot;right_of_access_iframe&quot;)
+ iframe.style.height = scrollHeight + &quot;px&quot;
+ container.style.paddingTop = scrollHeight + &quot;px&quot;
+ }
+}
+, false)
+function sendCSS(iframe) {
+// Example using raw css provided in the message
+//iframe.contentWindow.postMessage({&quot;rawcss&quot;: &quot;body {font: 20px verdana;}&quot;},
+ &quot;https://app.gdpr-central.eu&quot;)
+// Example using a CSS URL
+//iframe.contentWindow.postMessage({&quot;urlcss&quot;: &quot;http://localhost:80/test.css&quot;},
+ &quot;https://app.gdpr-central.eu&quot;)
+}
+&lt;/script&gt;
+&lt;div class=&quot;iframe-container&quot;&gt;&lt;iframe id=&quot;right_of_access_iframe&quot;
+src=&quot;&lt;URL after clicking Show Published button&gt;&quot;&gt;Your browser does not support
+ iframes.&amp;lt;br /&amp;gt;&lt;br /&gt;
+&lt;/iframe&gt;&lt;/div&gt;
+</pre></div>
+</td></tr></table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please ensure that the section displayed as &lt;URL after clicking Show Published button&gt; in the code is replaced with actual URL that you get after clicking Show Published button.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="selecting-url-to-be-included-in-code-snippet">
+<h2>Selecting URL to be included in code snippet<a class="headerlink" href="#selecting-url-to-be-included-in-code-snippet" title="Permalink to this headline">¶</a></h2>
+<p>To select the URL to be included to the code snippet above, perform the following steps:</p>
+<ol class="arabic">
+<li><p>In the left pane, under your organization, click Registry Publication.</p></li>
+<li><p>The Publishable Registry page opens.</p></li>
+<li><p>Click Show published button in this page.</p>
+<img alt="_images/img8.png" src="_images/img8.png" />
+</li>
+<li><p>A new page opens with all the published processing activities. Select the URL from this page.</p>
+<img alt="_images/img9.png" src="_images/img9.png" />
+</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">How do I integrate publishing my Process Activity with corporate sites?</a><ul>
+<li><a class="reference internal" href="#integrating-gdpr-central-to-corporate-site">Integrating GDPR Central to Corporate Site</a></li>
+<li><a class="reference internal" href="#selecting-url-to-be-included-in-code-snippet">Selecting URL to be included in code snippet</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="03publishprocessingactivity.html"
+                        title="previous chapter">How do I publish a Processing Activity?</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="05adduserstogdpr.html"
+                        title="next chapter">How do I add users to GDPR Central?</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/04integration.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="05adduserstogdpr.html" title="How do I add users to GDPR Central?"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="03publishprocessingactivity.html" title="How do I publish a Processing Activity?"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">GDPR Central User  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Security Service Layer, Belgium.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.
+    </div>
+  </body>
+</html>

@@ -1,3 +1,5 @@
+.. _createnewprocesingactivity:
+
 ******************************************
 How do I create a new Processing Activity?
 ******************************************
@@ -66,8 +68,11 @@ You can create a new Processing Activity in GDPR Central by performing the follo
 
 #. Processing Activity Overview screen with status of the Processing Activity created is displayed, along with the minimum set of tasks that need to be completed or is complete.
    You can have the following statuses:
+    
     * **In progress** – This means that there are still certain items or actions within the Processing Activity that needs to be completed.
+    
     * **Complete** – This means that all the minimum requirements i.e. items or actions within the Processing Activity has been completed. Once all the fields are completed, the status automatically changes to complete.
+    
     * **Approved** - This means that one of the approvers have reviewed the activity and its contents and have marked this as approved.
 
    .. note::

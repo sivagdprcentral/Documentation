@@ -1,0 +1,43 @@
+***************************************************************
+How do I request for approval or approve a Processing Activity?
+***************************************************************
+As Processing Activity is an important record mandated by GDPR regulations, it is important that any Processing Activity that is created or changed also goes through a formal approval process. 
+
+.. note::
+   If a change is made to a previously approved activity it will lose its approved status and must be reverified and reapproved before it can be considered the latest approved version.
+
+.. youtube:: https://www.youtube.com/watch?v=morfJBMJB8I
+
+You can approve a Processing Activity in GDPR Central by performing the following steps:
+
+#. Login to GDPR Central using your credentials if not already logged in.
+
+#. In the left pane, under your organization, click Processing Activities.
+
+#. A list of all Processing Activities for the customer are listed along with their statuses.
+
+   .. |view| image:: ../source/image/view.png
+
+#. Click the View button (|view|) for the Processing Activity that needs to be approved.
+
+#. Processing Activities Details page appears.
+
+#. If you would like to see what has changed since the previous version of the Processing Activity, click Compare button. 
+
+#. If you have logged in to the system with administrative privileges, you will be able to approve the Processing Activity. Click Approve Processing Activity button.
+   
+   .. image:: ../source/image/img2.png
+   
+   If you have logged in to the system with user privileges, you will be able to request for approving the Processing Activity. Click Ask for Approval button.
+   
+   .. image:: ../source/image/img4.png
+   
+#. If you have approved the Processing Activity, you will get a success message if your approval is successful.
+
+   .. image:: ../source/image/img3.png
+ 
+   If you have requested for approval for the Processing Activity, you will get a success message if your request for approval has been successfully sent.
+
+   .. image:: ../source/image/img5.png
+   
+   
