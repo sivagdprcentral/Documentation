@@ -6,6 +6,8 @@ How can I share documents across GDPR Central?
 
 GDPR Central makes it very simple to share documents across. It allows you to exchange documents within your organization or with multiple organizations depending on your role.
 
+.. youtube:: https://www.youtube.com/watch?v=-alKolRYaKI
+
 You can share documents in GDPR Central within your organization by performing the following steps:
 
 #. Login to GDPR Central using your credentials if not already logged in.

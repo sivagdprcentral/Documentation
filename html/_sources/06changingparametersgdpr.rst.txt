@@ -10,13 +10,13 @@ Some of the data that can be configured under administration (across all the rel
 
 More detailed information on each of the configurable parameters are covered in the GDPR Configuration Administrator’s and Super Administrator’s Guides.
 
-.. youtube:: https://www.youtube.com/watch?v=morfJBMJB8I
+.. youtube:: https://www.youtube.com/watch?v=u161SLv-eng
 
 To add any parameter within GDPR Central, perform the following steps:
 
 #. Login to GDPR Central using your credentials if not already logged in.
 
-#. Navigate to the parameter page by clicking Administration or Configuration and then clicking the parameter section that you want to add.
+#. Navigate to the parameter screen by clicking Administration or Configuration and then clicking the parameter section that you want to add.
 
 #. Click the New button on the top or bottom right corner of the screen.
 
@@ -33,7 +33,7 @@ To edit any parameter within GDPR Central, perform the following steps:
 
 #. Login to GDPR Central using your credentials if not already logged in.
 
-#. Navigate to the parameter page by clicking Administration or Configuration and then clicking the parameter section that you want to edit.
+#. Navigate to the parameter screen by clicking Administration or Configuration and then clicking the parameter section that you want to edit.
 
 #. The parameter’s list screen appears.
 

@@ -16,17 +16,17 @@ Once a Processing Activity is approved, you can publish the processing activity 
    
    .. |view| image:: ../source/image/view.png
    
-#. Click the View button (|view|) for the Processing Activity that needs to be published and the Processing Activities Details page appears.
+#. Click the View button (|view|) for the Processing Activity that needs to be published and the Processing Activities Details screen appears.
 
-#. Please confirm that the Processing Activity is marked as ‘external’ and is in an ‘approved’ status from this page. If this is not marked as external or is not approved, you will not be able to publish that Processing Activity.
+#. Please confirm that the Processing Activity is marked as ‘external’ and is in an ‘approved’ status from this screen. If this is not marked as external or is not approved, you will not be able to publish that Processing Activity.
    
    .. image:: ../source/image/img6.png
 
 #. Once verified, in the left pane, under your organization, click Registry Publication.
 
-#. The Publishable Registry page opens with a list of all Processing Activities ready to be published. Please ensure your approved Processing Activity marked as ‘external’ is also listed in this page.
+#. The Publishable Registry screen opens with a list of all Processing Activities ready to be published. Please ensure your approved Processing Activity marked as ‘external’ is also listed in this screen.
 
-#. You have the following buttons in this page:
+#. You have the following buttons in this screen:
 
    * **Publish** – Click this button to publish the processing activity to your external corporate site.
     

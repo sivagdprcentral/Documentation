@@ -53,12 +53,12 @@ To select the URL to be included to the code snippet above, perform the followin
 
 #. In the left pane, under your organization, click Registry Publication.
 
-#. The Publishable Registry page opens.
+#. The Publishable Registry screen opens.
 
-#. Click Show published button in this page.
+#. Click Show published button in this screen.
 
    .. image:: ../source/image/img8.png
 
-#. A new page opens with all the published processing activities. Select the URL from this page.
+#. A new screen opens with all the published processing activities. Select the URL from this screen.
 
    .. image:: ../source/image/img9.png

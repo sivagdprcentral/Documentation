@@ -9,7 +9,7 @@ Understanding Action Plans
 
 Action Plans allow you to ensure all actions (i.e. tasks to be performed within GDPR Central) are generated and listed in a central place, so they are not missed. This is a key functionality of the tool which allows you to be in control of all key tasks to be performed as well as ensure nothing is missed. 
 
-.. youtube:: https://www.youtube.com/watch?v=morfJBMJB8I
+.. youtube:: https://www.youtube.com/watch?v=LNt-dLu9qmw
 
 These action plans are grouped by areas they relate to within GDPR Central and are displayed as the following sections:
 
@@ -29,7 +29,7 @@ These action plans are grouped by areas they relate to within GDPR Central and a
 
   #. Click Add requirement button to add a new action plan.
 
-  #. The New Requirement page appears.
+  #. The New Requirement screen appears.
   
      .. list-table:: Processing Activity Details
         :widths: 40 60
@@ -50,7 +50,7 @@ These action plans are grouped by areas they relate to within GDPR Central and a
         * - Due date
           - Select the due date by which this new requirement has to be completed.
 
-  #. After completing the information, click Create Requirement button. You get the action plan list page along with the newly created action plan listed.
+  #. After completing the information, click Create Requirement button. You get the action plan list screen along with the newly created action plan listed.
   
   To act on an action plan, perform the following steps:
 

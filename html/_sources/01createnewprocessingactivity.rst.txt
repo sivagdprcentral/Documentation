@@ -13,7 +13,7 @@ A Processing Activity can be a part of a registry, which is a collection of proc
 Creating New Processing Activity:
 =================================
 
-.. youtube:: https://www.youtube.com/watch?v=morfJBMJB8I
+.. youtube:: https://www.youtube.com/watch?v=zMbBUxEP1xY
 
 You can create a new Processing Activity in GDPR Central by performing the following steps:
 

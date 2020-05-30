@@ -16,7 +16,7 @@ You have the following user roles within GDPR-Central:
 
 You can add or edit users and their roles to GDPR Central only if you have superadmin role. 
 
-.. youtube:: https://www.youtube.com/watch?v=morfJBMJB8I
+.. youtube:: https://www.youtube.com/watch?v=jm6bIPxcHEg
 
 To add a user within GDPR Central, perform the following steps:
 
@@ -50,7 +50,7 @@ To add a user within GDPR Central, perform the following steps:
       * - deactivated
         - If you want the user to be active in the system, please leave this unchecked.
 
-#. Click Save button. You get a success message, and the users page with the list of users is displayed.
+#. Click Save button. You get a success message, and the users screen with the list of users is displayed.
 
 #. If Auto send invitation mail under Administration > Configuration has been marked as No, you will need to click Resend invitation button for the invite to be sent to the user.
    

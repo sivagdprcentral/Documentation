@@ -6,7 +6,7 @@ As Processing Activity is an important record mandated by GDPR regulations, it i
 .. note::
    If a change is made to a previously approved activity it will lose its approved status and must be reverified and reapproved before it can be considered the latest approved version.
 
-.. youtube:: https://www.youtube.com/watch?v=morfJBMJB8I
+.. youtube:: https://www.youtube.com/watch?v=CbUle4lL1cg
 
 You can approve a Processing Activity in GDPR Central by performing the following steps:
 
@@ -20,7 +20,7 @@ You can approve a Processing Activity in GDPR Central by performing the followin
 
 #. Click the View button (|view|) for the Processing Activity that needs to be approved.
 
-#. Processing Activities Details page appears.
+#. Processing Activities Details screen appears.
 
 #. If you would like to see what has changed since the previous version of the Processing Activity, click Compare button. 
 
