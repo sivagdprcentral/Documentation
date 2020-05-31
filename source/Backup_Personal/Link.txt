@@ -1,0 +1,8 @@
+To create links between different reStructuredText (.rst) files you can use the inline markup provided by sphinx. See the documentation under the heading Cross-referencing documents
+
+on top of the file you define its label
+
+.. _my-reference-label:
+then you can link to it from other documents using
+
+:ref:`my-reference-label`.
